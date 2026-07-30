@@ -1,7 +1,14 @@
 aid: luna
 name: Luna
-description: Luna is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Luna is an in-home physical therapy company that dispatches licensed physical
+  therapists to patients' homes for 1:1 treatment sessions covered by insurance,
+  including Medicare and major commercial plans. The company supports orthopedic,
+  sports medicine, neurologic, post-surgical, and geriatric rehabilitation across
+  a nationwide network of thousands of therapists, reaching roughly 85K patients
+  and more than 1.2M in-home PT visits in 2024. Luna was surfaced as a portfolio
+  company of 8vc and added to the API Evangelist network. It is a consumer
+  healthcare service with no public developer or API program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/luna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,28 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Physical Therapy
+- In-Home Care
+- Rehabilitation
+- Digital Health
+image: https://getluna.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/luna-domain-security.yml
 - type: Website
   url: https://getluna.com
+- type: Blog
+  url: https://getluna.com/blog
+- type: Support
+  url: https://getluna.com/contact-us
+- type: TermsOfService
+  url: https://getluna.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://getluna.com/privacy-policy-web
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
